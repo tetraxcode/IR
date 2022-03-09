@@ -1,38 +1,96 @@
-.App {
+.Search{
+  text-align: center;
+  padding-top: 5%;
+};
+
+.Searchbar{
+  position: absolute;
+  margin: auto;
+};
+
+#logo1{
+  height: 200px;
+  width: 400px;
+}
+
+#searchbox{
+  width: 300px;
+}
+
+#searchbox1{
+  width: 750px;
+}
+
+.navbarv2{
+  padding-top: 2% !important;
+}
+
+.results{
+  padding-top: 10%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.result{
+  padding-top: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Tweet-header{
+  padding-top: 5%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.upper-half{
+  height: 500px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.lower-half{
+  padding: 2%;
+}
+
+.User-picture{
+  /* border: 1px solid black; */
+  width: 30%;
+  height: 450px;
+  margin-left: 2%;
+  text-align: center;
+  border-radius: 5%;
+}
+
+.userimg{
+  margin-left: 2%;
+  margin-top: 2%;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.upper-half-content{
+  display: flex;
+  flex-direction: row;
+}
+
+.User-tweet{
+  /* border: 1px solid black; */
+  border-radius: 20px;
+  width: 100%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.results1{
+  /* justify-content: center;
+  text-align: center;*/
+  margin-top: 5%;
+}
+
+.switch{
+  margin-left: 310px;
+  margin-right: 320px;
+  margin-top: 1%;
+}
+
+.time{
+  margin-top: 30px;
 }
